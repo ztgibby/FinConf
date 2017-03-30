@@ -3,6 +3,14 @@ body {
     padding-bottom: 20px;
 }
 
+.empty {
+  padding: 80px 0;
+}
+
+.title {
+
+}
+
 .banner {
   max-height: 450px;
   min-height: 265px;
@@ -20,6 +28,27 @@ body {
   background-image: url(../Images/top.png);
   color:black;
 }
+
+.parent {
+  position:absolute;
+}
+
+#finconf {
+  background:white;
+  border-width:1px;
+  border-style:solid;
+  border-color:#0000ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#year {
+  position: relative;
+  right: 0;
+}
+
 .middle {
   background:
   linear-gradient(
@@ -28,20 +57,8 @@ body {
     ),
   url(../Images/middle.png);
 }
+
 .bottom {
-
-}
-
-.empty {
-  padding: 80px 0;
-}
-
-.jds-div {
-  margin-top: -50px;
-  background: white;
-}
-
-.title {
 
 }
 
