@@ -29,24 +29,41 @@ body {
   color:black;
 }
 
+.topcontainer {
+  position:relative;
+  top:18%;
+}
+
 .parent {
-  position:absolute;
+
 }
 
 #finconf {
   background:white;
-  border-width:1px;
+  border-width:3.5px;
   border-style:solid;
-  border-color:#0000ff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border-color:#ADD8E6;
+}
+
+#finhead {
+  padding: 20px 0 20px 0;
+  font-weight:bold;
 }
 
 #year {
   position: relative;
-  right: 0;
+  left:92%;
+  border-left-width:thick;
+  border-style:solid;
+  border-left-color:#000000;
+  border-right-color:#A9A9A9;
+  border-bottom-color:#A9A9A9;
+  border-top-color:#A9A9A9;
+  background-color:#A9A9A9;
+  color:white;
+  margin: 0 0 0 0;
+  max-width:140px;
+  min-width:140px;
 }
 
 .middle {
