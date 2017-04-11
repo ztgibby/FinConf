@@ -24,9 +24,12 @@ body {
   padding: 60px 0;
 }
 
+/* Styling the Top Section */
+
 .top {
   background-image: url(../Images/top.png);
   color:black;
+  min-height: 801px;
 }
 
 .topcontainer {
@@ -66,6 +69,21 @@ body {
   min-width:140px;
 }
 
+.arrow {
+  position:relative;
+  left:50%;
+  bottom:75px;
+}
+
+.btn-primary {
+  position:relative;
+  left:46%;
+  bottom:50px;
+  padding-bottom: 20px;
+}
+
+/* Styling the Middle Section */
+
 .middle {
   background:
   linear-gradient(
@@ -73,7 +91,31 @@ body {
     rgba(0, 0, 200, 0.3)
     ),
   url(../Images/middle.png);
+  max-height:823px;
+  min-height:823px;
 }
+
+.datecol {
+  position:relative;
+  top:50%;
+}
+
+#middate {
+  position:relative;
+  font-size:64px;
+
+}
+
+#ingod {
+  font-weight:bold;
+  font-size:32px;
+}
+
+#fillertext {
+
+}
+
+/* Styling the Bottom Section */
 
 .bottom {
 
