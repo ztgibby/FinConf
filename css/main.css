@@ -93,6 +93,12 @@ body {
   url(../Images/middle.png);
   max-height:823px;
   min-height:823px;
+  
+}
+
+.midrow {
+  position:relative;
+  top:50%;
 }
 
 .datecol {
@@ -109,10 +115,30 @@ body {
 #ingod {
   font-weight:bold;
   font-size:32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #fillertext {
 
+}
+
+.tablemid {
+
+}
+
+#saturday {
+  border-left-width:thick;
+  border-style:solid;
+  border-left-color:#006400;
+  border-right-color:#9ACD32;
+  border-bottom-color:#9ACD32;
+  border-top-color:#9ACD32;
+  background-color:#9ACD32;
+  color:white;
+  margin: 0 0 0 0;
+  max-width:140px;
+  min-width:140px;
 }
 
 /* Styling the Bottom Section */
